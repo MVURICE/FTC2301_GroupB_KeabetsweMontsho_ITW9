@@ -1,16 +1,38 @@
-@keyframes dancinglogo{
-    from {background-color: red;
-          transform: rotate(45deg);}
-    to {background-color: yellow;}
+@keyframes Dancinglogo{
+    0%{background-color: rgb(62,62, 62);
+          transform: rotate(360deg);}
+    50%{translate: 500px;
+        border-radius: 20%;}
+    100%{background-color: #90BAF9;
+        translate: 500px}
 }
 
-div{
-    width: 200px;
-    height: 200px;
-    animation-name: dancinglogo;
+div:hover{
+    animation-name: Dancinglogo;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     transition: linear;
     animation-direction: alternate;
+    text-align: center;
+    cursor: pointer
+    
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    background-color: #90BAF9;
+    border-radius: 50%;
+
+}
+
+
+
+img{
+    border-radius: 50%;
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+
     
 }
