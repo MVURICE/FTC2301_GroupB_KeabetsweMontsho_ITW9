@@ -1,0 +1,16 @@
+@keyframes dancinglogo{
+    from {background-color: red;
+          transform: rotate(45deg);}
+    to {background-color: yellow;}
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    animation-name: dancinglogo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: linear;
+    animation-direction: alternate;
+    
+}
